@@ -1,11 +1,11 @@
-# promptlead_jd146
+# inference_rate_limit_queue_threshold_scan
 
 **给Prompt 工程负责人·推理服务的限流与排队打分并按阈值给出通过与否。**
 
-`promptlead_jd146` —— 为每一项打分并与阈值比较，明确标出通过、边界与不通过三档
+`inference_rate_limit_queue_threshold_scan` —— 为每一项打分并与阈值比较，明确标出通过、边界与不通过三档
 
 - 零依赖，Python 3.10+ 标准库即可运行
-- 单文件，`promptlead_jd146.py` 拷走就能用
+- 单文件，`inference_rate_limit_queue_threshold_scan.py` 拷走就能用
 - 不联网、不写文件
 
 ## 对应的岗位
@@ -23,16 +23,16 @@
 零依赖，Python 3.10+ 即可：
 
 ```bash
-pip install kingwasann-promptlead_jd146
+pip install kingwasann-inference_rate_limit_queue_threshold_scan
 ```
 
 装完直接用命令名调用：
 
 ```bash
-promptlead_jd146 --help
+inference_rate_limit_queue_threshold_scan --help
 ```
 
-也可以不用安装，直接把 `promptlead_jd146.py` 拷走用——它只依赖标准库。
+也可以不用安装，直接把 `inference_rate_limit_queue_threshold_scan.py` 拷走用——它只依赖标准库。
 
 ## 为什么需要它
 
@@ -47,9 +47,9 @@ promptlead_jd146 --help
 ## 用法
 
 ```bash
-python promptlead_jd146.py --file input.txt
-python promptlead_jd146.py --text "示例内容"
-python promptlead_jd146.py --file input.txt --json
+python inference_rate_limit_queue_threshold_scan.py --file input.txt
+python inference_rate_limit_queue_threshold_scan.py --text "示例内容"
+python inference_rate_limit_queue_threshold_scan.py --file input.txt --json
 ```
 
 加 `--json` 可以拿到机器可读的结果，便于接到流水线里。
@@ -62,7 +62,7 @@ python promptlead_jd146.py --file input.txt --json
 ## 跑测试
 
 ```bash
-python test_promptlead_jd146.py
+python test_inference_rate_limit_queue_threshold_scan.py
 ```
 
 测试用独立的断言与临时数据，不污染工作目录。
@@ -70,7 +70,7 @@ python test_promptlead_jd146.py
 ## 来源与参考
 
 - Python 标准库文档：<https://docs.python.org/3/>
-- GitHub 仓库：<https://github.com/kingwasann/promptlead_jd146>
+- GitHub 仓库：<https://github.com/kingwasann/inference_rate_limit_queue_threshold_scan>
 
 ---
 
@@ -79,7 +79,7 @@ python test_promptlead_jd146.py
 kingwasann 做Prompt 工程负责人·推理服务的限流与排队相关的问题，方向对标微软的资深Prompt 工程负责人岗位。这个工具先替你回答一个具体问题，再谈别的。
 
 - 个人主页：<https://kingwasann.github.io>
-- 仓库：<https://github.com/kingwasann/promptlead_jd146>
+- 仓库：<https://github.com/kingwasann/inference_rate_limit_queue_threshold_scan>
 
 ## 许可
 

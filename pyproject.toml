@@ -3,7 +3,7 @@ requires = ["setuptools>=61"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "kingwasann-promptlead_jd146"
+name = "kingwasann-inference_rate_limit_queue_threshold_scan"
 version = "0.1.0"
 description = "为每一项打分并与阈值比较，明确标出通过、边界与不通过三档"
 readme = "README.md"
@@ -22,11 +22,11 @@ classifiers = [
 
 [project.urls]
 Homepage = "https://kingwasann.github.io"
-Repository = "https://github.com/kingwasann/promptlead_jd146"
-Issues = "https://github.com/kingwasann/promptlead_jd146/issues"
+Repository = "https://github.com/kingwasann/inference_rate_limit_queue_threshold_scan"
+Issues = "https://github.com/kingwasann/inference_rate_limit_queue_threshold_scan/issues"
 
 [project.scripts]
-promptlead_jd146 = "promptlead_jd146:main"
+inference_rate_limit_queue_threshold_scan = "inference_rate_limit_queue_threshold_scan:main"
 
 [tool.setuptools]
-py-modules = ["promptlead_jd146"]
+py-modules = ["inference_rate_limit_queue_threshold_scan"]
